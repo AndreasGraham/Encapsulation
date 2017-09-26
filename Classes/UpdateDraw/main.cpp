@@ -24,12 +24,13 @@ int main()
 	//Set up the game loop
 	while (sfw::stepContext()) {
 		//game code goes here
-		me.playerTwo();
-		me.draw();
+		//me.playerTwo();
+		//me.draw();
 
 		you.draw();
-		you.update();
-		you.checkLie();
+		you.teleport();
+		//you.update();
+		//you.checkLie();
 		
 	}
 

@@ -47,3 +47,11 @@ void PLayer::checkLie() {
 	}
 }
 
+void PLayer::teleport() {
+	if (sfw::getMouseButton(0)) {
+		
+		x = sfw::getMouseX();
+		y = sfw::getMouseY();
+	}
+}
+

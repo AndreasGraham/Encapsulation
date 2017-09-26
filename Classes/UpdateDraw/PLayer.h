@@ -11,4 +11,5 @@ public:
 	void playerTwo();
 	void wrap();
 	void checkLie();
+	void teleport();
 };
